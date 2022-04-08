@@ -1,0 +1,25 @@
+{% extends 'flatpages/default.html' %}
+<html>
+
+<head>
+<title>{{ flatpage.title }}</title>
+</head>
+{% block content %}
+<body>
+   <i>{{ flatpage.content }}</i>
+   <h5>{{ flatpage.content }}</h5>
+   <h5> Не получилось <h5>
+   <p><strong>Собаки живут дольше кошек</strong></p>
+<p><em>Собаки живут дольше кошек</em></p>
+<p><span style="text-decoration: underline;">Собаки живут дольше кошек</span></p>
+<ol style="list-style-type: lower-roman;">
+<li>Собаки живут дольше кошек</li>
+</ol>
+<p style="padding-left: 150px;">Собаки живут дольше кошек</p>
+<p style="text-align: right;">Собаки живут дольше кошек</p>
+<p>&nbsp;<span style="text-decoration: line-through;">Собаки живут хуже кошек</span><img src="https://html5-editor.net/tinymce/plugins/emoticons/img/smiley-yell.gif" alt="yell" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+{% endblock content %}
